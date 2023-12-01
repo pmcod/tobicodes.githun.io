@@ -18,6 +18,12 @@ nav{
     justify-content: space-between;
     width: 100%;
 }
+.fa-gavel{
+    margin-right: 10px;
+}
+.fa-location-dot{
+margin-right: 10px;
+}
 nav ul li{
     display: inline;
     margin-right: 20px;
@@ -64,6 +70,9 @@ nav ul button a{
     font-size: 20px;
     color: orange;
 
+}
+.tes h3{
+    color: white;
 }
 .tes h1{
     font-size: 45px;
@@ -150,6 +159,50 @@ nav .fas{
     margin-top: 10px;
 }
 
+/* Footer Styles */
+/* line 5, sass/layout/_footer.scss */
+.site-footer { background-color: #111113; padding: 50px 0; text-align: center; }
+
+/* line 11, sass/layout/_footer.scss */
+.subscribe-form { margin-bottom: 30px; background-color: #0c0c0d; padding: 30px; text-align: left; }
+/* line 17, sass/layout/_footer.scss */
+.subscribe-form form { display: table; width: 100%; }
+/* line 20, sass/layout/_footer.scss */
+.subscribe-form form label, .subscribe-form form .control { display: table-cell; vertical-align: middle; }
+@media screen and (max-width: 640px) { /* line 20, sass/layout/_footer.scss */
+  .subscribe-form form label, .subscribe-form form .control { display: block; width: 100%; } }
+/* line 28, sass/layout/_footer.scss */
+.subscribe-form form label { text-align: left; width: 350px; line-height: 1.2; }
+@media screen and (max-width: 640px) { /* line 28, sass/layout/_footer.scss */
+  .subscribe-form form label { margin-bottom: 30px; width: 100%; } }
+/* line 37, sass/layout/_footer.scss */
+.subscribe-form form label span { display: block; font-size: 20px; font-size: 1.25em; font-weight: 600; text-transform: uppercase; }
+/* line 42, sass/layout/_footer.scss */
+.subscribe-form form label span:last-child { color: #ac8074; }
+/* line 46, sass/layout/_footer.scss */
+.subscribe-form form input, .subscribe-form form button { vertical-align: middle; outline: none; margin-bottom: 0; -webkit-transition: .3s ease; transition: .3s ease; }
+/* line 52, sass/layout/_footer.scss */
+.subscribe-form form .control { position: relative; }
+/* line 53, sass/layout/_footer.scss */
+.subscribe-form form input { border: 4px solid #28292c;  background-color: transparent; padding: 10px 100px 10px 20px; width: 700px; height: 40px; color: #888; }
+/* line 61, sass/layout/_footer.scss */
+.subscribe-form form input:hover, .subscribe-form form input:hover + button, .subscribe-form form input:focus, .subscribe-form form input:focus + button { border-color: #ac8074; }
+/* line 66, sass/layout/_footer.scss */
+.subscribe-form form button { height: 70px; padding: 15px 20px 10px; background-color: transparent; border: 4px solid #28292c; margin-left: -10px; position: absolute; right: 0; top: 0; }
+/* line 76, sass/layout/_footer.scss */
+.subscribe-form form button:focus { border-color: #ac8074; }
+
+/* line 83, sass/layout/_footer.scss */
+.social-links { margin: 50px 0; }
+/* line 85, sass/layout/_footer.scss */
+.social-links a { color: #ac8074; font-size: 20px; font-size: 1.25em; display: inline-block; padding: 10px; -webkit-transition: .3s ease; transition: .3s ease; }
+/* line 92, sass/layout/_footer.scss */
+.social-links a:hover, .social-links a:focus { color: #c9aca4; }
+
+/* line 98, sass/layout/_footer.scss */
+.copy { font-size: 14px; font-size: 0.875em; color: #494949; }
+
+
 
 
 
@@ -221,7 +274,9 @@ nav .fas{
         transition: right 0.5s;
         color: #b1976b;
     }
-
+    .news{
+    display: none;
+}
     nav ul li {
         display: block;
         margin: 25px;
@@ -260,11 +315,31 @@ nav .fas{
         margin-left: 0px;
         margin-top: 20px;
         font-size:16px ;
+        width: 98%;
         
         
     }
     .about-col-2 p br{
         display: none;
+    }
+    .fot{
+        margin-left: 0;
+    }
+    .expe{
+        height: 30%;
+    }
+    .fa-gavel{
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .fa-location-dot{
+        margin-right: 10px;
+    }
+    .fa-phone{
+        margin-right: 10px;
+    }
+    .res h3{
+        color: white;
     }
 }
 
