@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    
+</head>
+<body>
+    <div id="site-content">
+			
+        <header class="site-header">
+            <div class="container">
+                <a href="index.html" id="branding">
+                    <div class="branding-copy">
+                        <h1 class="site-title">Olapeju Chambers</h1>
+                        <small class="site-description">"Olapeju Chambers: Nurturing Legal Excellence, Advocating Justice with Integrity."</small>
+                    </div>
+                </a>
+
+                <nav class="main-navigation">
+                    <ul id="sidemenu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item current-menu-item"><a href="about.html">About Us</a></li>
+                        <li class="menu-item"><a href="experience.html">Experience</a></li>
+                        <li class="menu-item"><a href="service.html">Service</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                       <i class="fas fa-x" onclick="closemenu()"></i>  
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+        
+            </div>
+        </header>
+
+        <main class="main-content">
+            
+            <div class="fullwidth-block content">
+                <div class="container">
+                    <div id="about-me">
+                        <h1 class="eh">ABOUT OUR FOUNDER <br>
+                        Barr. FEMI AINA
+                        </h1>
+                        <p>Welcome to my world of legal expertise! I am Barrister Femi Aina, born on October 18, 1968, a seasoned legal professional who has dedicated his life to the pursuit of justice and excellence in the field of law.</p>
+                      
+                        <p><strong>Early Years and Education:</strong> I embarked on my academic journey at the prestigious University of Lagos, where I honed my intellectual skills and developed a passion for the intricacies of the legal realm. The years spent at the university laid the foundation for my future endeavors in the legal profession.</p>
+                      
+                        <p><strong>Professional Experience:</strong> In the early stages of my career, I had the privilege of working alongside legal luminary Rotimi Jacobs. The experience garnered during those years not only enriched my legal knowledge but also instilled in me a commitment to the highest standards of professionalism and ethical conduct.</p>
+                      
+                        <p><strong>Family Life:</strong> Beyond the courtroom, I find immense joy in my role as a devoted family man. Blessed with a loving spouse and wonderful children, my family provides the support and inspiration that fuels my dedication to the legal profession.</p>
+                      
+                        <p><strong>Two Decades of Legal Excellence:</strong> With over two decades of legal practice, I have established myself as a stalwart in the legal community. My journey has been marked by a relentless pursuit of justice, unwavering integrity, and a deep-rooted commitment to the principles that underpin the legal system.</p>
+                      
+                        <p><strong>Founding Olapeju Chambers:</strong> A significant milestone in my career was the establishment of Olapeju Chambers, a legal haven that reflects my vision for legal excellence and advocacy. The firm serves as a platform to champion the rights of individuals and entities, guided by the principles of fairness, equity, and the pursuit of truth.</p>
+                      
+                        <p>As I continue to navigate the dynamic landscape of the legal profession, my mission remains clear - to provide expert legal counsel, foster a culture of justice, and contribute to the betterment of our society through the application of legal principles.</p>
+                      
+                        <p>Thank you for joining me on this journey, and I look forward to serving you with the highest level of professionalism and dedication.</p>
+                      
+                        <p>Warm regards,</p>
+                        <p>Barrister Femi Aina</p>
+                      </div>
+                      
+                </div>
+            </div>
+
+        </main> 
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="subscribe-form">
+                    <form action="#">
+                        <label for="#">
+                            <span>Do you want to get news?</span>
+                            <span class>Join our news letter</span>
+                        </label>
+                        <div class="control">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <button type="submit"><img src="images/icon-envelope.png" alt=""></button>
+                                                    </form>
+                        </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <div class="copy">
+                    <p>Copyright 2023 PM CODES. Designed by Peter Aina. All rights reserved.</p>
+                </div>
+            </div>
+        </footer> 
+
+    </div>
+
+    
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right = "0"; 
+}
+
+function closemenu(){
+    sidemeu.style.right = "-200px"; 
+}
+
+</script>
+    
+</body>
+</html>
